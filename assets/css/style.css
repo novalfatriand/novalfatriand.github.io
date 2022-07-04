@@ -1,0 +1,123 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.navbar {
+    min-height: 75px;
+}
+.active {
+    color: #007bff !important;
+    border-bottom: 2px solid #0b105e;
+}
+.tulisanvote {
+    border-bottom: 1px solid #000000;
+}
+.sec1 {
+    min-height: 500px;
+    margin-top: 100px;
+}
+.p-sec1 {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.sitombol {
+    border-radius: 18px;
+}
+.p-register {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.sec2 {
+    min-height: 650px;
+}
+.container-countdown {
+    position: absolute;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.countdown {
+    display: flex;
+    margin-top: 50px;
+}
+.countdown div {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: rgb(128, 147, 255);
+    color: #fff;
+    margin: 0 15px;
+    font-size: 3em;
+    font-weight: 500;
+}
+.countdown div:before {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background: rgb(49, 2, 255);
+    color: rgb(255, 254, 254);
+    font-size: 0.35em;
+    line-height: 35px;
+    font-weight: 300;
+}
+.countdown #day:before {
+    content: 'Hari';
+}
+.countdown #hour:before {
+    content: 'Jam';
+}
+.countdown #minute:before {
+    content: 'Menit';
+}
+.countdown #second:before {
+    content: 'Detik';
+}
+footer {
+    min-height: 65px;
+    padding: 30px;
+}
+@font-face {
+    font-family: Helvetica;
+    src: url('assets/font/Helvetica.ttf');
+}
+@media screen and (max-width: 400px) {
+    .sec1 {
+        margin-top: 80px;
+    }
+    .h2-sec1 {
+        text-align: center;
+        font-size: 45px;
+        margin-top: 27px !important;
+    }
+    .p-sec1 {
+        text-align: center;
+        font-size: 15px;
+        margin-top: 18px !important;
+    }
+    .p-register {
+        display: none;
+    }
+    .btn-sec1 {
+        margin-left: 26%;
+    }
+    .h2-sec2 {
+        text-align: center;
+        font-size: 27px;
+    }
+    .logoregister {
+        display: none;
+    }
+    .chartKandidat {
+        height: 400px;
+    }
+}
