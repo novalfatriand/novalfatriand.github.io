@@ -195,23 +195,27 @@
 /* CSS AndroidVersion Start */
 .welcomeText {
     padding-top: 10px;
-    padding-left: 25px !important;
+    padding-left: 23px !important;
     position: absolute;
     font-size: 30px;
     font-weight: 700 !important;
 }
 .rowAndroid {
-    padding-left: 5px;
-    padding-top: 140px;
+    padding-left: 3px;
+    padding-top: 130px;
+}
+.inputEmail {
+    color: #747474;
 }
 .inputPassword {
-    margin-top: 10px;
+    color: #747474;
+    margin-top: 5px;
 }
 .inputBorderBottom {
-    border-bottom: 1px solid #1b24304d !important;
+    border-bottom: 1px solid #1b243033 !important;
 }
 .signInAndroid {
-    margin-top: 70px;
+    margin-top: 65px;
 }
 .submitAndroid {
     background-color: #1b2430;
@@ -220,14 +224,14 @@
     border-radius: 10px !important;
 }
 .textForgotPassword {
-    color: #8d8d8d;
+    color: #0080BF;
     padding-left: 180px;
-    padding-top: 7px;
+    padding-top: 0px;
     font-size: small;
 }
 .textForgotPassword a{
     text-decoration: none;
-    color: #8d8d8d;
+    color: #0080BF;
     transition: .5s;
 }
 .textForgotPassword a:hover {
@@ -237,6 +241,14 @@
     width: 40% !important;
     height: auto;
     padding-top: 85px;
+}
+.textVersion {
+    font-size: small;
+    color: #888888;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 /* CSS AndroidVersion End */
 
