@@ -194,20 +194,20 @@
 /* CSS AndroidVersion Start */
 .welcomeText {
     padding-top: 10px;
-    padding-left: 30px !important;
+    padding-left: 25px !important;
     position: absolute;
     font-size: 30px;
     font-weight: 700 !important;
 }
 .rowAndroid {
-    padding-left: 10px;
+    padding-left: 5px;
     padding-top: 140px;
 }
 .inputPassword {
     margin-top: 10px;
 }
 .inputBorderBottom {
-    border-bottom: 1px solid #1b243081 !important;
+    border-bottom: 1px solid #1b24304d !important;
 }
 .signInAndroid {
     margin-top: 70px;
