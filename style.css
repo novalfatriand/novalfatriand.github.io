@@ -244,11 +244,8 @@
 }
 .textVersion {
     font-size: small;
-    color: #888888;
-    margin-top: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    color: #464646;
+    margin-top: 10px;
 }
 /* CSS AndroidVersion End */
 
