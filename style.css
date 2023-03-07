@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CSS DesktopVersion Start */
+.androidVersion {
+    display: none !important;
+}
+.wrapper {
+    background: #ececec;
+    padding: 0 20px 0 20px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.rowDesktop {
+    width: 900px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.imageSebelah {
+    background-image: url("assets/images/DarkModeLogo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+}
+.img {
+    width: -10px !important;
+    height: -10px !important;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text p {
+    color: #fff;
+    font-size: 18px;
+}
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.input-box {
+    width: 330px;
+    box-sizing: border-box;
+
+}
+.input-box header {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 75px;
+}
+.input-field {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 10px 0 10px;
+}
+.input {
+    height: 45px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    margin-bottom: 20px;
+    color: #40414a;
+}
+.input-box .input-field label{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: .5s;
+}
+.input-field .input:focus ~ label {
+    top: -10px;
+    font-size: 13px;
+}
+.input-field .input:valid ~ label {
+    top: -10px;
+    font-size: 13px;
+    color: #5d5076;
+}
+.input-field .input:focus, .input-field .input:valid {
+    border-bottom: 1px solid #0080BF;
+}
+.submit {
+    border: none;
+    outline: none;
+    height: 45px;
+    background: rgba(27, 36, 48, 1);
+    color: #fff;
+    border-radius: 25px;
+    transition: .4s;
+}
+.submit:hover {
+    background: rgb(71, 96, 129);
+    color: #fff;
+}
+.register {
+    text-align: center;
+    margin-top: 30px;
+}
+.register a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    transition: .5s;
+}
+.register a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+.textAtau {
+    margin-top: 5px;
+    margin-bottom: -10px;
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+    color: #5d5076;
+}
+.submitGoogle {
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    color: #3a3a3a;
+    transition: .4s;
+}
+.submitGoogle:hover {
+    background: rgba(0, 128, 191, 1);
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.tombolGoogle .bi {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+.tombolGoogleLagi .bi {
+    left: 50px;
+}
+.tombolGoogleLagi input {
+    padding-left: 30px;
+}
+.inputSignin {
+    height: 45px;
+}
+
+@media only screen and (max-width: 768px) {
+    .imageSebelah {
+        border-radius: 10px 10px 0 0;
+    }
+    .img {
+        width: 35px;
+        position: absolute;
+        top: 20px;
+        left: 47%;
+    }
+    .text {
+        position: absolute;
+        top: 70%;
+        text-align: center;
+    }
+    .text p {
+        font-size: 17px;
+    }
+    .row {
+        max-width: 420px;
+        width: 100%;
+    }
+}
+/* CSS DesktopVersion End */
+
+
+/* CSS AndroidVersion Start */
+.welcomeText {
+    padding-top: 10px;
+    padding-left: 30px !important;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700 !important;
+}
+.rowAndroid {
+    padding-left: 10px;
+    padding-top: 140px;
+}
+.inputPassword {
+    margin-top: 10px;
+}
+.inputBorderBottom {
+    border-bottom: 1px solid #1b243081 !important;
+}
+.signInAndroid {
+    margin-top: 70px;
+}
+.submitAndroid {
+    background-color: #0080BF;
+    letter-spacing: 2px;
+    font-weight: 400;
+    border-radius: 10px !important;
+}
+.textForgotPassword {
+    color: #8d8d8d;
+    padding-left: 180px;
+    padding-top: 7px;
+    font-size: small;
+}
+.textForgotPassword a{
+    text-decoration: none;
+    color: #8d8d8d;
+    transition: .5s;
+}
+.textForgotPassword a:hover {
+    text-decoration: underline;
+}
+.logoCompany {
+    width: 40% !important;
+    height: auto;
+    padding-top: 85px;
+}
+/* CSS AndroidVersion End */
+
+
+@media screen and (max-width: 450px) {
+    .biGoogle {
+        display: none !important;
+    }
+    .androidVersion {
+        display: block !important;
+    }
+    .desktopVersion {
+        display: none !important;
+    }
+
+}
+/* Sedang tahap pengembangan Android Version, itu sebabnya DesktopVersion dihilangkan */
