@@ -34,7 +34,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    border-radius: 10px 0 0 10px;
+    border-radius: 110px 0 0 0px;
 }
 .img {
     width: -10px !important;
@@ -286,6 +286,9 @@
     margin-left: 23%;
     margin-bottom: 20px;
 }
+.kotakUtama {
+    border-radius: 15px;
+}
 .emailPrototype {
     color: #747474;
 }
@@ -296,7 +299,6 @@
     padding: 0 10px 0 10px;
 }
 .tombolSubmitPrototype {
-    background-color: red;
     letter-spacing: 1px !important;
     border-radius: 7px !important;
 }
@@ -307,7 +309,7 @@
 }
 .forgotPasswordPrototype {
     color: #0080BF;
-    padding-left: 180px;
+    padding-left: 170px;
     padding-top: -10px;
     font-size: small;
 }
