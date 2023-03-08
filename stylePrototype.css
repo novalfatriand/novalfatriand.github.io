@@ -260,7 +260,7 @@
     align-items: center;
 }
 .rowPrototype {
-    width: 330px !important;
+    width: 320px !important;
     height: 380px;
     border-radius: 20px;
     background-color: #664747 !important;
@@ -296,6 +296,7 @@
     padding: 0 10px 0 10px;
 }
 .tombolSubmitPrototype {
+    background-color: red;
     letter-spacing: 1px !important;
     border-radius: 7px !important;
 }
