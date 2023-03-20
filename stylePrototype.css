@@ -5,9 +5,6 @@
 }
 
 /* CSS DesktopVersion Start */
-.androidVersion {
-    display: none !important;
-}
 .prototypeVersion {
     display: none !important;
 }
@@ -195,64 +192,6 @@
 /* CSS DesktopVersion End */
 
 
-/* CSS AndroidVersion Start */
-.welcomeText {
-    padding-top: 10px;
-    padding-left: 23px !important;
-    position: absolute;
-    font-size: 30px;
-    font-weight: 700 !important;
-}
-.rowAndroid {
-    padding-left: 3px;
-    padding-top: 130px;
-}
-.inputEmail {
-    color: #747474;
-}
-.inputPassword {
-    color: #747474;
-    margin-top: 5px;
-}
-.inputBorderBottom {
-    border-bottom: 1px solid #1b243033 !important;
-}
-.signInAndroid {
-    margin-top: 65px;
-}
-.submitAndroid {
-    background-color: #1b2430;
-    letter-spacing: 2px;
-    font-weight: 400;
-    border-radius: 10px !important;
-}
-.textForgotPassword {
-    color: #0080BF;
-    padding-left: 180px;
-    padding-top: 0px;
-    font-size: small;
-}
-.textForgotPassword a{
-    text-decoration: none;
-    color: #0080BF;
-    transition: .5s;
-}
-.textForgotPassword a:hover {
-    text-decoration: underline;
-}
-.logoCompany {
-    width: 40% !important;
-    height: auto;
-    padding-top: 85px;
-}
-.textVersion {
-    font-size: small;
-    color: #464646;
-    margin-top: 10px;
-}
-/* CSS AndroidVersion End */
-
-
 /* CSS PrototypeVersion Start */
 .containerUtama {
     min-height: 630px;
@@ -329,14 +268,8 @@
 }
 /* CSS PrototypeVersion End */
 
-
+/* Entry Point CSS */
 @media screen and (max-width: 450px) {
-    .biGoogle {
-        display: none !important;
-    }
-    .androidVersion {
-        display: none !important;
-    }
     .desktopVersion {
         display: none !important;
     }
