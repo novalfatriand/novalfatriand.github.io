@@ -110,11 +110,13 @@
     background: rgba(27, 36, 48, 1);
     color: #fff;
     border-radius: 25px;
+
     transition: .4s;
 }
 .submit:hover {
     background: rgb(71, 96, 129);
     color: #fff;
+    transform: translateY(-7px);
 }
 .register {
     text-align: center;
