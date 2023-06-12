@@ -130,38 +130,6 @@
     text-decoration: underline;
     color: #000;
 }
-.textAtau {
-    margin-top: 5px;
-    margin-bottom: -10px;
-    text-align: center;
-    justify-content: center;
-    font-size: small;
-    color: #5d5076;
-}
-.submitGoogle {
-    height: 45px;
-    border-radius: 25px;
-    border: 1px solid #000;
-    color: #3a3a3a;
-    transition: .4s;
-}
-.submitGoogle:hover {
-    background: rgba(0, 128, 191, 1);
-    color: #fff;
-    outline: none;
-    border: none;
-}
-.tombolGoogle .bi {
-    position: absolute;
-    padding: 10px;
-    pointer-events: none;
-}
-.tombolGoogleLagi .bi {
-    left: 50px;
-}
-.tombolGoogleLagi input {
-    padding-left: 30px;
-}
 .inputSignin {
     height: 45px;
 }
@@ -207,7 +175,6 @@
     -moz-box-shadow: 0 0 5px 5px #888;
     -webkit-box-shadow: 0 0 5px 5px#888;
     box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
-    /*box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.2);*/
 }
 .headerPrototype header {
     text-align: left;
@@ -244,7 +211,7 @@
 }
 .submitLoginPrototype {
     width: 160px;
-    height: 35px;
+    height: 40px;
     margin-top: 30px !important;
 }
 .forgotPasswordPrototype {
