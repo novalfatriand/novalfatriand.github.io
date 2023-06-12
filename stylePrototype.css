@@ -167,9 +167,9 @@
     align-items: center;
 }
 .kotakUtama {
-    width: 330px !important;
+    width: 320px !important;
     height: 380px;
-    margin-left: 24px !important;
+    margin-left: 10px !important;
     border-radius: 20px;
     -moz-box-shadow: 0 0 5px 5px #888;
     -webkit-box-shadow: 0 0 5px 5px#888;
