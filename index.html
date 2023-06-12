@@ -26,23 +26,17 @@
                     <div class="input-box">
                         <header>Sign In</header>
                         <div class="input-field">
-                            <input type="text" class="input" id="email" required autocomplete="off">
+                            <input id="emailInput" type="text" class="input" id="email" autocomplete="off" required>
                             <label for="email">Email</label>
                         </div>
                         <div class="input-field">
-                            <input type="password" class="input" id="password" required>
+                            <input id="passwordInput" type="password" class="input" id="password" required>
                             <label for="password">Password</label>
                         </div>
                         <div class="input-field inputSignin">
-                            <input type="submit" class="submit" value="Sign In">
+                            <!--<input type="submit" class="submit" onclick="onLogin()" value="Sign In">-->
+                            <button type="submit" class="submit" onclick="onSubmit()">Sign In</button>
                         </div>
-                        <!--<div class="textAtau">
-                            <p>Atau</p>
-                        </div>
-                        <div class="input-field tombolGoogle tombolGoogleLagi">
-                            <i class="bi biGoogle bi-google"></i>
-                            <input type="submit" class="submitGoogle" value="Sign in dengan Google">
-                        </div> -->
                             <div class="register">
                                 <span>Jika anda mengalami kendala, <br> <a href="#">Hubungi kami.</a></span>
                             </div>
@@ -56,23 +50,23 @@
     <!-- Android Version Start -->
     <div class="wrapper prototypeVersion">
         <div class="container containerUtama">
-            <img class="logoPerusahaan" src="assets/logo.png" alt="Company Logo">
+            <img class="logoPerusahaan" src="logo/logoHeaderNew.png" alt="Company Logo">
             <div class="row rowPrototype">
                 <div class="col-md-6 right kotakUtama">
                     <div class="input-box headerPrototype">
                         <header class="helloWelcomeBack">Hello, Welcome Back!</header>
                         <p class="subheaderPrototype">Login untuk melanjutkan ke akun anda.</p>
                         <div class="input-field emailPrototype">
-                            <input type="text" class="input" id="email" required autocomplete="off">
+                            <input id="emailInput" type="text" class="input" id="email" autocomplete="off" required>
                             <label for="email">Email</label>
                         </div>
                         <div class="input-field passwordPrototype">
-                            <input type="password" class="input" id="password" required>
+                            <input id="passwordInput" type="password" class="input" id="password" required>
                             <label for="password">Password</label>
                         </div>
                         <p class="forgotPasswordPrototype"><a href="">Forgot Password?</a></p>
                         <div class="input-field inputSignin submitLoginPrototype">
-                            <input type="submit" class="submit tombolSubmitPrototype" value="LOGIN">
+                            <input type="submit" class="submit tombolSubmitPrototype" onclick="onSubmit()" value="LOGIN">
                         </div>
                     </div>
                 </div>
@@ -81,6 +75,8 @@
         <p class="testVers">© 2023 Tim Developer SSS. V Prototype</p>
     </div>
     <!-- Android Version End -->
+
+    <script src="app.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>

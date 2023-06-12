@@ -110,13 +110,11 @@
     background: rgba(27, 36, 48, 1);
     color: #fff;
     border-radius: 25px;
-
     transition: .4s;
 }
 .submit:hover {
     background: rgb(71, 96, 129);
     color: #fff;
-    transform: translateY(-7px);
 }
 .register {
     text-align: center;
@@ -203,6 +201,7 @@
 .rowPrototype {
     width: 320px !important;
     height: 380px;
+    margin-left: 1% !important;
     border-radius: 20px;
     background-color: #664747 !important;
     -moz-box-shadow: 0 0 5px 5px #888;
@@ -221,11 +220,11 @@
 .logoPerusahaan {
     width: 50% !important;
     height: auto;
-    padding-top: 0px;
+    padding-top: 60px;
     justify-content: center !important;
     align-items: center !important;
     margin-left: 23%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .kotakUtama {
     border-radius: 15px;
