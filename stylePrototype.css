@@ -169,12 +169,11 @@
 .kotakUtama {
     width: 330px !important;
     height: 380px;
-    margin-left: 10px !important;
+    margin-left: 24px !important;
     border-radius: 20px;
     -moz-box-shadow: 0 0 5px 5px #888;
     -webkit-box-shadow: 0 0 5px 5px#888;
     box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
 }
 .headerPrototype header {
     text-align: left;
