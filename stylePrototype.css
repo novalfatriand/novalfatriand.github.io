@@ -169,7 +169,7 @@
 .rowPrototype {
     width: 320px !important;
     height: 380px;
-    margin-left: 1% !important;
+    margin-left: 4px !important;
     border-radius: 20px;
     background-color: #664747 !important;
     -moz-box-shadow: 0 0 5px 5px #888;
